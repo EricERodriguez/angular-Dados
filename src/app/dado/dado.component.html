@@ -1,0 +1,14 @@
+<!-- los b muestran los datos guardados en cada variable por pantalla -->
+<div>
+  <b>&nbsp; {{ dado1 }} &nbsp;</b>
+  <small>&nbsp;</small>
+  <b>&nbsp; {{ dado2 }} &nbsp;</b>
+  <small>&nbsp;</small>
+  <b>&nbsp; {{ dado3 }} &nbsp;</b>
+</div>
+<hr>
+<!-- el boton ejecuta la funcion de tirada -->
+<div><button (click)="retornarAleatorio()">Tirar</button></div>
+<hr>
+<!-- se pasan los resultado de los dados al componente hijo -->
+<app-resultado [dado1]="dado1" [dado2]="dado2" [dado3]="dado3"></app-resultado>

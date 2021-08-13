@@ -1,0 +1,6 @@
+<!-- se crea un ngIf con las 2 opciones ganador o perdedor -->
+<div>Resultado: <b *ngIf="(dado1 === dado2 && dado2 === dado3); else myElseTemplate"><small>Ganaste 😀</small></b>
+  <ng-template #myElseTemplate>
+    <b>Perdiste 😑</b>
+  </ng-template>
+</div>

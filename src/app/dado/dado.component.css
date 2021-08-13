@@ -1,0 +1,34 @@
+/* centro todos los objetos */
+
+div {
+  text-align: center;
+}
+/* Se establecen los 3 contenedores con fondo negro para adecuar al ejercicio */
+b {
+  font-size: 5rem;
+  border-radius: 10%;
+  color: white;
+  background-color: black;
+}
+div b {
+  text-align: center;
+}
+/* Se establece el estilo del boton, ademas se cambia el puntero y se le da un efecto cuando se pasa el puntero por encima */
+button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10%;
+  box-shadow: 4px 3px 2px;
+  background-color: rgba(56, 219, 241, 0.301);
+  color: rgb(30, 30, 31);
+  cursor: pointer;
+}
+button:hover {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 10%;
+  box-shadow: 4px 3px 2px;
+  background-color: rgba(56, 219, 241, 0.301);
+  color: rgb(30, 30, 31);
+  cursor: pointer;
+}
